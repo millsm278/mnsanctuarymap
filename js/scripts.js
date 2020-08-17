@@ -5,5 +5,6 @@ function iframe_swap(hide, show){
 	shower = $(show);
 	hider.css('display', 'none');
 	shower.css('display', 'block');
+	console.log('test');
 
 }
