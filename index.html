@@ -6,10 +6,42 @@
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+	
+	<div id="top">
+		<h1>Sanctuary Locations</h1>
+	</div>
+
+	<div id ="buttons">
+			<ui>
+				<li class="button_list">
+					<button id="map" onclick="iframe_swap('#survey_frame', '#map_frame')"> Map </button>
+				</li>
+				<li class="button_list">
+					<button id="survey" onclick="iframe_swap('#map_frame', '#survey_frame')"> Add Information </button>
+				</li>
+			</ui>
+	</div>
+
+	<div id="map_frame">
+		<div class="embed-container">
+			<iframe id="map_container" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Sanctuary Map" src="https://umn.maps.arcgis.com/apps/webappviewer/index.html?id=13bf3b51a25c461aa7ea3cf92a78d5c4"></iframe>
+		</div>
+	</div>
+
+	<div id="survey_frame">
+		<div class="embed-container">
+					<iframe id="survey_container" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="survey" src="https://survey123.arcgis.com/share/755c73932a0a475dbe26c04c7050b8ca?portalUrl=https://UMN.maps.arcgis.com"></iframe>
+		</div>
+	</div>
+
+	<div id="bottom">
+	</div>
+
 </body>
 
 </html>
