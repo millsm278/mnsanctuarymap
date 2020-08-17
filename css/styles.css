@@ -1,9 +1,11 @@
 #loginForm{
-	display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    background-color: white;
+    padding-top: 30%;
+    padding-bottom: 50%;
+    width: 100%;
     text-align: center;
-    margin-top: 30%;
+    z-index: 9;
 }
 
 #password{
@@ -62,7 +64,7 @@ button:hover{
 	display: block;
 }
 #body_tag{
-	display: none;
+
 }
 /* .embed-container {
 	position: relative; 
