@@ -1,3 +1,20 @@
+#loginForm{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30%;
+}
+
+#password{
+	height: 23px;
+}
+
+#submit_btn{
+    height: 29px;
+    font-size: 14px;
+}
+
 #top{
 	text-align: center;
     position: fixed;
@@ -43,6 +60,9 @@ button:hover{
 }
 #map_container{
 	display: block;
+}
+#body_tag{
+	display: none;
 }
 /* .embed-container {
 	position: relative; 
