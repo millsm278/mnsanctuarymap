@@ -58,13 +58,13 @@ button:hover{
 }
 
 .main_frame{
-	width: 90%;
-    height: 1200px;
+    width: 90%;
+    height: 1100px;
     padding: 0px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
-    margin-top: 115px;
+    margin-top: 200px;
 }
 
 #survey_container{
